@@ -1,6 +1,6 @@
 # Hello World - Jasmin
 
-```
+```jasmin
 .bytecode 52.0
 
 .source Main.j
@@ -20,14 +20,56 @@
 
 His disassembled bytecode:
 ```
-
-
+Classfile /C:/Users/Arthur/Desktop/jasmin/jasmin-jvm-assemble/hello-world/Main.class
+  Last modified 31.10.2019; size 309 bytes
+  MD5 checksum d2c045e00bda7634503821e4384e8b2b
+  Compiled from "Main.j"
+public class Main
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Main.j
+   #2 = Class              #17            // Main
+   #3 = NameAndType        #21:#23        // out:Ljava/io/PrintStream;
+   #4 = Utf8               ([Ljava/lang/String;)V
+   #5 = Utf8               java/lang/Object
+   #6 = Class              #5             // java/lang/Object
+   #7 = Class              #16            // java/io/PrintStream
+   #8 = Utf8               Hello world!
+   #9 = Class              #19            // java/lang/System
+  #10 = Utf8               Code
+  #11 = Utf8               main
+  #12 = Fieldref           #9.#3          // java/lang/System.out:Ljava/io/PrintStream;
+  #13 = String             #8             // Hello world!
+  #14 = Utf8               SourceFile
+  #15 = NameAndType        #18:#22        // println:(Ljava/lang/String;)V
+  #16 = Utf8               java/io/PrintStream
+  #17 = Utf8               Main
+  #18 = Utf8               println
+  #19 = Utf8               java/lang/System
+  #20 = Methodref          #7.#15         // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #21 = Utf8               out
+  #22 = Utf8               (Ljava/lang/String;)V
+  #23 = Utf8               Ljava/io/PrintStream;
+{
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: ldc           #13                 // String Hello world!
+         5: invokevirtual #20                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         8: return
+}
+SourceFile: "Main.j"
 ```
 
 
 And this is his binary (hexadimical) bytecode:
 
-```
+```hexademical
 cafe babe 0000 0036 001d 0a00 0600 0f09
 0010 0011 0800 120a 0013 0014 0700 1507
 0016 0100 063c 696e 6974 3e01 0003 2829
