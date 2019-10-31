@@ -13,7 +13,7 @@ JVM Instruction Set: [Wikipedia](https://en.wikipedia.org/wiki/Java_bytecode_ins
 
 #### RU
 
-* Hello World from bytecode (hexademical)
+* **Hello World from bytecode (hexademical)**
 
   * Разбор структуры `classfile` из спецификации JVM
   * Статья на русском: [hello-world-from-bytecode-ru](articles/ru/jvm/classfile/hello-world-from-bytecode-ru.md)
