@@ -2,7 +2,7 @@
 
 # JVM Introduction
 
-<h2 align=center> Разбираем Hello World из байт-кода <h2>
+<h2 align=center>Разбираем Hello World из байт-кода<h2>
 
 <h5 align=center>Kupriyanov Arthur</h5>
 
