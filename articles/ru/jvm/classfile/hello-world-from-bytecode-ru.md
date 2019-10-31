@@ -3,16 +3,8 @@
 # JVM Introduction
 
 <h2 align=center> Разбираем Hello World из байт-кода <h2>
-    <hr>
-
-
 
 <h5 align=center>Kupriyanov Arthur</h5>
-
-
-
-
-
 
 
 Очень полезной книгой для этого стала официальная спецификация JVM - The Java Virtual Machine Specification на сайте [oracle](https://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf)
