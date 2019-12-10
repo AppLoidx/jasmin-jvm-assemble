@@ -5,7 +5,9 @@ Jasmin's home page: http://jasmin.sourceforge.net/ <br/>
 JVM Instruction Set: [Wikipedia](https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings)
 
 ## Examples
-* [Hello World](hello-world)
+* [Hello World](examples/hello-world)
+* [System.in read](examples/system-in-read)
+* [Creating an object from class](examples/class-creating)
 
 
 
